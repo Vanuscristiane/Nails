@@ -27,6 +27,26 @@
             font-size: 24px;
             margin: 0;
         }
+
+        .contact-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        /* Estilo para a imagem abaixo das informações de contato */
+        img.image-below-contact {
+            max-width: 100px; /* Define a largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            float: left; /* Alinha a imagem à esquerda */
+            margin-right: 10px; /* Adiciona uma margem à direita */
+        }
     </style>
 </head>
 <body>
@@ -34,8 +54,20 @@
 <div class="container">
     <img src="image.jpg.jpg" alt="Logo" class="logo">
     <h1>Vanusa Cristiane</h1>
-    <h3>Nails designer</h3>
+    <h3>Nails Designer</h3>
+
+    <div class="contact-info">
+        <img src="tel.png" alt="Telefone">
+        Telefone: (38) 991357464
+        <br>
+        <img src="inst.png" alt="Instagram">
+        Instagram: @vanusacristiane.van
+    </div>
+
+    <!-- Imagem do QR Code abaixo das informações de contato -->
+    <img src="qrcode.png" alt="QR Code Instagram" class="image-below-contact">
 </div>
 
 </body>
 </html>
+
