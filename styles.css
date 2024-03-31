@@ -1,0 +1,57 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffdce5; /* rosa claro */
+            color:black; /* cor que combina com o rosa de fundo */
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .contact-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        /* Estilo para a imagem abaixo das informações de contato */
+        img.image-below-contact {
+            max-width: 150px; /* Define a largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            /* Alinha a imagem à esquerda */
+            margin-right: 10px; /* Adiciona uma margem à direita */
+        }
+
+        footer {
+            background-color: #803c71; /* Cor de fundo do rodapé */
+            color: white; /* Cor do texto no rodapé */
+            padding: 2px; /* Espaçamento interno do rodapé */
+            text-align:right; /* Alinhamento do texto centralizado */
+            font-size: 12px;
+        }
+
+        /* Estilos básicos para dispositivos móveis */
+@media (min-width: 768px) {
+    /* Estilos para telas maiores */
+  }
+    
