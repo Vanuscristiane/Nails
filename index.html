@@ -4,77 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanusa Cristiane - Nails</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #ffdce5; /* rosa claro */
-            color: black; /* cor que combina com o rosa de fundo */
-        }
-
-        .container {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .logo {
-            max-width: 200px;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 24px;
-            margin: 0;
-        }
-
-        .contact-info {
-            text-align: left;
-            margin-top: 20px;
-        }
-
-        .contact-info img {
-            width: 30px;
-            height: 30px;
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-
-        /* Estilo para a imagem abaixo das informações de contato */
-        img.image-below-contact {
-            max-width: 150px; /* Define a largura máxima da imagem */
-            height: auto; /* Mantém a proporção da imagem */
-            margin-right: 10px; /* Adiciona uma margem à direita */
-        }
-
-                footer {
-            background-color: #803c71; /* Cor de fundo do rodapé */
-            color: white; /* Cor do texto no rodapé */
-            padding: 2px; /* Espaçamento interno do rodapé */
-            text-align:right; /* Alinhamento do texto centralizado */
-            font-size: 12px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Vanusa Cristiane</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="second_page.html">Fotos</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 <div class="container">
     <img src="image.jpg.jpg" alt="Logo" class="logo">
     <h1>Vanusa Cristiane</h1>
-    <h3>Manicure e pedicure</h3>
+    <h3>Nails Designer</h3>
 
     <div class="contact-info">
         <img src="tel.png" alt="Telefone">
         Telefone: (38) 991357464
         <br>
         <img src="inst.png" alt="Instagram">
-        Instagram: @vanusacristiane.van
+        Instagram: <a href="https://www.instagram.com/vanusacristiane.van" target="_blank">@vanusacristiane.van</a>
     </div>
 
     <!-- Imagem do QR Code abaixo das informações de contato -->
     <img src="qrcode.png" alt="QR Code Instagram" class="image-below-contact">
 </div>
 <footer>2024 Created by BH tecnologias</footer>
+
+<!-- Scripts JavaScript necessários para o Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
-
